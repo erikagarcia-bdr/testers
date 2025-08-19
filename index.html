@@ -1,0 +1,491 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;BDR to AE Career Path&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.jsdelivr.net/npm/chart.js"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Inter', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.chart-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: auto;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 40vh;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 80vw;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 600px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Simple spinner */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.loader {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 4px solid #f3f3f3;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-top: 4px solid #4f46e5;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: spin 1s linear infinite;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes spin {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>0% { transform: rotate(0deg); }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>100% { transform: rotate(360deg); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body class="bg-gray-100 text-gray-800"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container mx-auto p-4 md:p-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;header class="text-center mb-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1 class="text-4xl md:text-5xl font-bold text-indigo-600 mb-2"&gt;Your Playbook: From BDR to Account Executive&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-lg text-gray-600"&gt;An actionable roadmap for building your sales career at AppFolio.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;section id="expectations" class="mb-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white rounded-lg shadow-md p-6 md:p-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 class="text-3xl font-bold text-center mb-6 text-indigo-600"&gt;Setting Realistic Expectations&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="grid md:grid-cols-2 gap-8 text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="text-6xl font-bold text-amber-500"&gt;1+&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h3 class="text-xl font-semibold mt-2"&gt;Year Minimum Tenure&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="mt-2 text-gray-600"&gt;Mastery takes time. Our internal mobility guidelines require at least one year in the BDR role to ensure you've mastered the fundamentals.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="text-6xl font-bold text-teal-500"&gt;∞&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h3 class="text-xl font-semibold mt-2"&gt;Many Paths to Success&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="mt-2 text-gray-600"&gt;The AE role is a primary goal, but not the only one. Your BDR skills open doors to Marketing, Customer Success, Enablement, and more.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/section&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Gemini API Feature Section 1 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;section id="ai-planner" class="mb-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white rounded-lg shadow-lg p-6 md:p-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 class="text-3xl font-bold text-center mb-2 text-indigo-600"&gt;✨ AI-Powered Development Plan&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-center text-gray-600 mb-6"&gt;Select up to 3 competencies you want to improve, and get a personalized 1-week action plan.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div id="competency-form"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;h3 class="font-semibold text-lg mb-2 text-indigo-700"&gt;Strategic &amp; Business Acumen&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div class="space-y-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;label class="flex items-center"&gt;&lt;input type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500" value="Business Acumen"&gt; &lt;span class="ml-2 text-gray-700"&gt;Business Acumen&lt;/span&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;label class="flex items-center"&gt;&lt;input type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500" value="Analytical Skills"&gt; &lt;span class="ml-2 text-gray-700"&gt;Analytical Skills&lt;/span&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;label class="flex items-center"&gt;&lt;input type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500" value="Selling Through Curiosity"&gt; &lt;span class="ml-2 text-gray-700"&gt;Selling Through Curiosity&lt;/span&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;h3 class="font-semibold text-lg mb-2 text-amber-700"&gt;Execution &amp; Process&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div class="space-y-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;label class="flex items-center"&gt;&lt;input type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500" value="Action Oriented Mentality"&gt; &lt;span class="ml-2 text-gray-700"&gt;Action Oriented Mentality&lt;/span&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;label class="flex items-center"&gt;&lt;input type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500" value="Organization and Planning"&gt; &lt;span class="ml-2 text-gray-700"&gt;Organization and Planning&lt;/span&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;label class="flex items-center"&gt;&lt;input type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500" value="Perseverance"&gt; &lt;span class="ml-2 text-gray-700"&gt;Perseverance&lt;/span&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;h3 class="font-semibold text-lg mb-2 text-teal-700"&gt;Personal &amp; Interpersonal&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div class="space-y-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;label class="flex items-center"&gt;&lt;input type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500" value="Communication"&gt; &lt;span class="ml-2 text-gray-700"&gt;Communication&lt;/span&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;label class="flex items-center"&gt;&lt;input type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500" value="Learning on the Fly (Coachability)"&gt; &lt;span class="ml-2 text-gray-700"&gt;Learning on the Fly&lt;/span&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;label class="flex items-center"&gt;&lt;input type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500" value="Teamwork and Peer Relationships"&gt; &lt;span class="ml-2 text-gray-700"&gt;Teamwork&lt;/span&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;button id="generate-plan-btn" class="bg-indigo-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-indigo-700 transition duration-300"&gt;Generate My 1-Week Plan&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div id="plan-result" class="mt-8 hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div id="loader-plan" class="loader mx-auto my-4"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div id="plan-content" class="bg-indigo-50 p-6 rounded-lg border border-indigo-200"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Gemini API Feature Section 2 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;section id="ai-coach" class="mb-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white rounded-lg shadow-lg p-6 md:p-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 class="text-3xl font-bold text-center mb-2 text-amber-600"&gt;✨ AI Objection Handling Coach&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-center text-gray-600 mb-6"&gt;Select a common objection and get a coached response based on the "Selling Through Curiosity" framework.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div id="objection-form" class="text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;select id="objection-select" class="w-full md:w-1/2 mx-auto p-2 border border-gray-300 rounded-lg focus:ring-amber-500 focus:border-amber-500"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;option value="It's too expensive."&gt;"It's too expensive."&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;option value="We're happy with our current solution."&gt;"We're happy with our current solution."&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;option value="Just send me an email."&gt;"Just send me an email."&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;option value="Call me back next quarter."&gt;"Call me back next quarter."&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;option value="We don't have the budget right now."&gt;"We don't have the budget right now."&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/select&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;button id="get-coaching-btn" class="mt-4 bg-amber-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-amber-700 transition duration-300"&gt;Get Coaching&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div id="coaching-result" class="mt-8 hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div id="loader-coach" class="loader mx-auto my-4" style="border-top-color: #d97706;"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div id="coaching-content" class="bg-amber-50 p-6 rounded-lg border border-amber-200"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Gemini API Feature Section 3 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;section id="ai-email" class="mb-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white rounded-lg shadow-lg p-6 md:p-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 class="text-3xl font-bold text-center mb-2 text-teal-600"&gt;✨ AI Cold Email Assistant&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-center text-gray-600 mb-6"&gt;Provide a few details about your prospect and get a personalized email draft.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div id="email-form"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;input type="text" id="prospect-title" placeholder="Prospect's Title (e.g., Property Manager)" class="p-2 border border-gray-300 rounded-lg focus:ring-teal-500 focus:border-teal-500"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;input type="text" id="company-type" placeholder="Company Type (e.g., Multifamily)" class="p-2 border border-gray-300 rounded-lg focus:ring-teal-500 focus:border-teal-500"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;input type="text" id="pain-point" placeholder="Potential Pain Point (e.g., maintenance)" class="p-2 border border-gray-300 rounded-lg focus:ring-teal-500 focus:border-teal-500"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;button id="generate-email-btn" class="bg-teal-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-teal-700 transition duration-300"&gt;Generate Email Draft&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div id="email-result" class="mt-8 hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div id="loader-email" class="loader mx-auto my-4" style="border-top-color: #0d9488;"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div id="email-content" class="bg-teal-50 p-6 rounded-lg border border-teal-200 text-left"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;section id="foundation" class="mb-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;div class="bg-white rounded-lg shadow-md p-6 md:p-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 class="text-3xl font-bold text-center mb-8 text-indigo-600"&gt;The Foundation of Growth: Professionalism&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 text-left"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="border-l-4 border-indigo-500 pl-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h3 class="font-bold text-lg"&gt;Urgency &amp; Ownership&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-sm text-gray-600"&gt;Treat every task as critical. Own your successes and your setbacks.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="border-l-4 border-amber-500 pl-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h3 class="font-bold text-lg"&gt;Proactive Communication&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-sm text-gray-600"&gt;Never let a deadline pass in silence. Communicate delays before they happen.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="border-l-4 border-teal-500 pl-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h3 class="font-bold text-lg"&gt;Intentional Networking&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-sm text-gray-600"&gt;Connect with AE leaders and former BDRs. Be a familiar face.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="border-l-4 border-pink-500 pl-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h3 class="font-bold text-lg"&gt;Drive Career Conversations&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-sm text-gray-600"&gt;Use 1:1s and reviews to discuss your goals and track progress.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;section id="phases" class="mb-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 class="text-3xl font-bold text-center mb-8 text-indigo-600"&gt;The Three Phases of Your Journey&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="relative"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="border-l-2 border-indigo-300 absolute h-full top-0 left-1/2 -ml-px"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="md:text-right md:pr-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="bg-white rounded-lg shadow-md p-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;h3 class="text-2xl font-bold text-indigo-600"&gt;Phase 1: Master Your Domain&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-sm text-gray-500 mb-4"&gt;(First 6-9 Months)&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-gray-700"&gt;Become an undeniable top performer. Exceed your quota, master the product, and build a true partnership with your AE.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="md:pl-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="bg-white rounded-lg shadow-md p-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;h3 class="text-2xl font-bold text-amber-600"&gt;Phase 2: Think Like an AE&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-sm text-gray-500 mb-4"&gt;(Months 9-15)&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-gray-700"&gt;Shift your mindset from booking meetings to understanding how deals are won. Shadow the full sales cycle and learn to handle deeper objections.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="md:text-right md:pr-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="bg-white rounded-lg shadow-md p-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;h3 class="text-2xl font-bold text-teal-600"&gt;Phase 3: Act Like an AE&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-sm text-gray-500 mb-4"&gt;(Months 15+)&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-gray-700"&gt;Proactively demonstrate your readiness. Ask to "co-pilot" a deal, build your 30/60/90 day plan, and formalize your intent with your manager.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;section id="competencies" class="mb-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white rounded-lg shadow-md p-6 md:p-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 class="text-3xl font-bold text-center mb-8 text-indigo-600"&gt;Demonstrating AE Competencies&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h3 class="text-xl font-semibold mb-4 text-indigo-700"&gt;Strategic &amp; Business Acumen&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="chart-container h-64"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;canvas id="strategicChart"&gt;&lt;/canvas&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-sm mt-4 text-gray-600"&gt;Go beyond the script. Analyze your performance, think long-term, and master "Selling Through Curiosity."&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h3 class="text-xl font-semibold mb-4 text-amber-700"&gt;Execution &amp; Process Management&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;div class="chart-container h-64"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;canvas id="executionChart"&gt;&lt;/canvas&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-sm mt-4 text-gray-600"&gt;Be known for your urgency and organization. Improve processes and persevere through challenges.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="text-center md:col-span-2 lg:col-span-1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h3 class="text-xl font-semibold mb-4 text-teal-700"&gt;Personal &amp; Interpersonal Skills&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;div class="chart-container h-64"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;canvas id="personalChart"&gt;&lt;/canvas&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-sm mt-4 text-gray-600"&gt;Communicate clearly, be coachable, and build strong team relationships. Your integrity is your most valuable asset.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/main&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;footer class="text-center mt-12 pt-8 border-t border-gray-300"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-gray-600"&gt;This playbook is a guide, but your career is your own. Take ownership, be proactive, and stay hungry.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-sm text-gray-500 mt-2"&gt;AppFolio Sales Development&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const tooltipCallback = {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>plugins: {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>tooltip: {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>callbacks: {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>title: function(tooltipItems) {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>const item = tooltipItems[0];</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>let label = item.chart.data.labels[item.dataIndex];</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>if (Array.isArray(label)) {</p>
+<p class="p1"><span class="Apple-converted-space">                              </span>return label.join(' ');</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                              </span>return label;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>new Chart(document.getElementById('strategicChart'), {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>type: 'doughnut',</p>
+<p class="p1"><span class="Apple-converted-space">            </span>data: {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>labels: ['Business Acumen', 'Analytical Skills', ['Selling Through', 'Curiosity'], 'Goal Orientation'],</p>
+<p class="p1"><span class="Apple-converted-space">                </span>datasets: [{</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>data: [25, 25, 25, 25],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>backgroundColor: ['#4f46e5', '#6366f1', '#818cf8', '#a5b4fc'],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>hoverOffset: 4</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}]</p>
+<p class="p1"><span class="Apple-converted-space">            </span>},</p>
+<p class="p1"><span class="Apple-converted-space">            </span>options: {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>responsive: true,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>maintainAspectRatio: false,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>plugins: tooltipCallback.plugins</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>new Chart(document.getElementById('executionChart'), {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>type: 'doughnut',</p>
+<p class="p1"><span class="Apple-converted-space">            </span>data: {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>labels: [['Action Oriented', 'Mentality'], 'Organization', 'Process Management', 'Perseverance'],</p>
+<p class="p1"><span class="Apple-converted-space">                </span>datasets: [{</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>data: [25, 25, 25, 25],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>backgroundColor: ['#d97706', '#f59e0b', '#fbbf24', '#fcd34d'],</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>hoverOffset: 4</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}]</p>
+<p class="p1"><span class="Apple-converted-space">            </span>},</p>
+<p class="p1"><span class="Apple-converted-space">            </span>options: {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>responsive: true,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>maintainAspectRatio: false,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>plugins: tooltipCallback.plugins</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>new Chart(document.getElementById('personalChart'), {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>type: 'doughnut',</p>
+<p class="p1"><span class="Apple-converted-space">            </span>data: {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>labels: ['Communication', ['Learning on', 'the Fly'], 'Teamwork', 'Integrity'],</p>
+<p class="p1"><span class="Apple-converted-space">                </span>datasets: [{</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>data: [25, 25, 25, 25],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>backgroundColor: ['#0d9488', '#14b8a6', '#2dd4bf', '#5eead4'],</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>hoverOffset: 4</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}]</p>
+<p class="p1"><span class="Apple-converted-space">            </span>},</p>
+<p class="p1"><span class="Apple-converted-space">            </span>options: {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>responsive: true,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>maintainAspectRatio: false,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>plugins: tooltipCallback.plugins</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Gemini API Feature 1 Logic</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const generateBtn = document.getElementById('generate-plan-btn');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const planResultDiv = document.getElementById('plan-result');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const planContentDiv = document.getElementById('plan-content');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const loaderPlan = document.getElementById('loader-plan');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const checkboxes = document.querySelectorAll('#competency-form input[type="checkbox"]');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>generateBtn.addEventListener('click', async () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const selectedCompetencies = Array.from(checkboxes)</p>
+<p class="p1"><span class="Apple-converted-space">                </span>.filter(i =&gt; i.checked)</p>
+<p class="p1"><span class="Apple-converted-space">                </span>.map(i =&gt; i.value);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>planResultDiv.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>planContentDiv.style.display = 'none';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>loaderPlan.style.display = 'block';</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (selectedCompetencies.length === 0) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>planContentDiv.innerHTML = `&lt;p class="text-red-600 font-semibold"&gt;Please select at least one competency to generate a plan.&lt;/p&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>loaderPlan.style.display = 'none';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>planContentDiv.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>return;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (selectedCompetencies.length &gt; 3) {</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>planContentDiv.innerHTML = `&lt;p class="text-red-600 font-semibold"&gt;Please select no more than 3 competencies for a focused plan.&lt;/p&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>loaderPlan.style.display = 'none';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>planContentDiv.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>return;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const prompt = `You are an expert sales manager at AppFolio creating a development plan for a Business Development Representative (BDR). The BDR wants to focus on the following competencies: ${selectedCompetencies.join(', ')}. Generate a concise, actionable 3-step plan for the next week that they can use to develop these skills. Provide specific examples relevant to a BDR's daily work. Format the response as a clean HTML unordered list (\`&lt;ul&gt;\`), with each list item (\`&lt;li&gt;\`) containing a bolded title for the step (\`&lt;strong&gt;\`) followed by the description.`;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>try {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const generatedPlan = await callGeminiApiWithExponentialBackoff(prompt);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>planContentDiv.innerHTML = `</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-xl font-bold mb-4 text-indigo-800"&gt;Your Personalized 1-Week Plan&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>${generatedPlan}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} catch (error) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>console.error("Error calling Gemini API:", error);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>planContentDiv.innerHTML = `&lt;p class="text-red-600 font-semibold"&gt;Sorry, we couldn't generate a plan at this time. Please try again later.&lt;/p&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} finally {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>loaderPlan.style.display = 'none';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>planContentDiv.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Gemini API Feature 2 Logic</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const getCoachingBtn = document.getElementById('get-coaching-btn');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const coachingResultDiv = document.getElementById('coaching-result');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const coachingContentDiv = document.getElementById('coaching-content');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const loaderCoach = document.getElementById('loader-coach');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const objectionSelect = document.getElementById('objection-select');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>getCoachingBtn.addEventListener('click', async () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const selectedObjection = objectionSelect.value;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>coachingResultDiv.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>coachingContentDiv.style.display = 'none';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>loaderCoach.style.display = 'block';</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const prompt = `You are an expert sales coach at AppFolio, training a Business Development Representative (BDR) on objection handling. The BDR is facing the objection: "${selectedObjection}". Provide a coached response using the "Selling Through Curiosity" framework. Your response should be in HTML and have two parts: 1) A \`&lt;h4&gt;\` with the title "The Strategy". Below it, explain the goal of the response (e.g., to pivot from price to value, to understand their current process, etc.). 2) A \`&lt;h4&gt;\` with the title "What to Say". Below it, provide the exact script for the BDR to use, formatted as a blockquote (\`&lt;blockquote&gt;\`).`;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>try {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const coachedResponse = await callGeminiApiWithExponentialBackoff(prompt);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>coachingContentDiv.innerHTML = coachedResponse;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} catch (error) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>console.error("Error calling Gemini API:", error);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>coachingContentDiv.innerHTML = `&lt;p class="text-red-600 font-semibold"&gt;Sorry, we couldn't generate a coached response at this time. Please try again later.&lt;/p&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} finally {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>loaderCoach.style.display = 'none';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>coachingContentDiv.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Gemini API Feature 3 Logic</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const generateEmailBtn = document.getElementById('generate-email-btn');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const emailResultDiv = document.getElementById('email-result');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const emailContentDiv = document.getElementById('email-content');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const loaderEmail = document.getElementById('loader-email');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const prospectTitleInput = document.getElementById('prospect-title');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const companyTypeInput = document.getElementById('company-type');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const painPointInput = document.getElementById('pain-point');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>generateEmailBtn.addEventListener('click', async () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const prospectTitle = prospectTitleInput.value;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const companyType = companyTypeInput.value;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const painPoint = painPointInput.value;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (!prospectTitle || !companyType) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>emailResultDiv.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>emailContentDiv.innerHTML = `&lt;p class="text-red-600 font-semibold"&gt;Please provide at least a Prospect Title and Company Type.&lt;/p&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>return;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>emailResultDiv.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>emailContentDiv.style.display = 'none';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>loaderEmail.style.display = 'block';</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const prompt = `You are an expert sales development representative at AppFolio, specializing in property management software. Your tone is helpful, consultative, and curious, never pushy. Based on the following prospect details, write a concise and compelling cold email. The email must follow the 'Selling Through Curiosity' framework. It should have a clear subject line, a personalized opening, a value proposition tied to the pain point, and a low-friction call-to-action (e.g., asking for a brief chat, not a demo). Format the response in HTML with an \`&lt;h4&gt;\` for the subject line (e.g., \`&lt;h4&gt;Subject: Your Subject Here&lt;/h4&gt;\`) and a \`&lt;p&gt;\` for the body, using \`&lt;br&gt;&lt;br&gt;\` for paragraph breaks.</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>Prospect Title: ${prospectTitle}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Company Type: ${companyType}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Potential Pain Point: ${painPoint || 'general operational efficiency'}`;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>try {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const emailDraft = await callGeminiApiWithExponentialBackoff(prompt);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>emailContentDiv.innerHTML = emailDraft;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} catch (error) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>console.error("Error calling Gemini API:", error);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>emailContentDiv.innerHTML = `&lt;p class="text-red-600 font-semibold"&gt;Sorry, we couldn't generate an email draft at this time. Please try again later.&lt;/p&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} finally {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>loaderEmail.style.display = 'none';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>emailContentDiv.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>async function callGeminiApiWithExponentialBackoff(prompt, maxRetries = 3) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>let chatHistory = [{ role: "user", parts: [{ text: prompt }] }];</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const payload = { contents: chatHistory };</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const apiKey = "";<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>let delay = 1000; // Start with 1 second</p>
+<p class="p1"><span class="Apple-converted-space">            </span>for (let i = 0; i &lt; maxRetries; i++) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>try {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const response = await fetch(apiUrl, {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>method: 'POST',</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>headers: { 'Content-Type': 'application/json' },</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>body: JSON.stringify(payload)</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>if (!response.ok) {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>throw new Error(`API response not OK: ${response.statusText}`);</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const result = await response.json();</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>if (result.candidates &amp;&amp; result.candidates.length &gt; 0 &amp;&amp;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>result.candidates[0].content &amp;&amp; result.candidates[0].content.parts &amp;&amp;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>result.candidates[0].content.parts.length &gt; 0) {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>return result.candidates[0].content.parts[0].text;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>throw new Error("Invalid response structure from API");</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>} catch (error) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>if (i === maxRetries - 1) throw error;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>await new Promise(resolve =&gt; setTimeout(resolve, delay));</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>delay *= 2; // Double the delay for the next retry</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
